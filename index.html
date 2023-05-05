@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body onload="get()">
+    <audio id="myAudio" src="happy_birthday-1.mp3"></audio>
     <marquee behavior="" direction="" id="go">Happy Birthday Brother</marquee>
     <!-- <button onclick="get()">get</button> -->
     <div class="card">
@@ -23,11 +24,14 @@
     We hope that today is a day filled with love, laughter, and joy, and that it brings you the same amount of happiness that you bring to everyone else. We wish you a very happy birthday and a year filled with everything your heart desires.
     Cheers to another year of making memories and celebrating life <br> Happy Birthday!</p>
   <script>
-    var audio = new Audio("happy_birthday-1.mp3");
+    const myAudio = document.getElementById("myAudio");
+    // var audio = new Audio("happy_birthday-1.mp3");
     const get = ()=>{
-      setTimeout(() => {
-        audio.play()
-      }, 2000);
+      myAudio.play()
+      
+      // setTimeout(() => {
+      //   audio.play()
+      // }, 2000);
     }
   </script>
   </body>
