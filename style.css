@@ -79,4 +79,8 @@
         cursor: pointer;
         justify-content: center;
         align-items: center;
-      }
+    }
+    img {
+        border-radius: 50%;
+        width: 280px;
+    }
