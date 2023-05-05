@@ -7,7 +7,7 @@
     <title>Birthday Party Animation</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body onload="get()">
+  <body>
     <audio id="myAudio" src="happy_birthday-1.mp3"></audio>
     <marquee behavior="" direction="" id="go">Happy Birthday Brother</marquee>
     <!-- <button onclick="get()">get</button> -->
@@ -15,6 +15,9 @@
       <h4>
           <img src="./IMG_1541.PNG" alt="" width="230">
       </h4>
+  </div>
+  <div id="me">
+    <button onclick="get()" class="my-button">Play Music</button>
   </div>
   <p>
     Happy Birthday! Today we celebrate the day you were born, and we are grateful for the wonderful person you have become. You bring joy, laughter, and happiness to the lives of everyone around you, and we feel blessed to have you in our lives.
@@ -28,10 +31,7 @@
     // var audio = new Audio("happy_birthday-1.mp3");
     const get = ()=>{
       myAudio.play()
-      
-      // setTimeout(() => {
-      //   audio.play()
-      // }, 2000);
+
     }
   </script>
   </body>

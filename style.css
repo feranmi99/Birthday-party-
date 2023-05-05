@@ -62,3 +62,21 @@
         text-align: center;
 
     }
+    #me {
+        /* border: 2px solid red; */
+        text-align: center;
+        padding: 10px;
+    }
+    .my-button {
+        background-color: #e9ec1c;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+      }
