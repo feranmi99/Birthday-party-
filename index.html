@@ -7,13 +7,13 @@
     <title>Birthday Party Animation</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
+  <body onload="get()">
     <audio id="myAudio" src="happy_birthday-1.mp3"></audio>
     <marquee behavior="" direction="" id="go">Happy Birthday Brother</marquee>
     <!-- <button onclick="get()">get</button> -->
     <div class="card">
       <h4>
-          <img src="./IMG-20230505-WA0001.jpg" alt="">
+          <img src="./Snapchat-1332907047.jpg" alt="">
       </h4>
   </div>
   <div id="me">
@@ -29,10 +29,10 @@
   <script>
     const myAudio = document.getElementById("myAudio");
     // var audio = new Audio("happy_birthday-1.mp3");
+    
     const get = ()=>{
       myAudio.play()
-
-    }
+  }
   </script>
   </body>
 </html>

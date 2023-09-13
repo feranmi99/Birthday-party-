@@ -1,7 +1,6 @@
 .card {
-    /* width: 230px; */
     max-width: 330px;
-    height: 370px;
+    height: 450px;
     background: #07182E;
     position: relative;
     display: flex;
@@ -10,10 +9,9 @@
     overflow: hidden;
     border-radius: 20px;
     justify-content: center;
-    /* border: 2px solid green; */
     align-items: center;
     margin: auto;
-    padding: 7px;
+    padding: 6px;
   }
     .card h4 {
         z-index: 99;
@@ -51,6 +49,7 @@
         font-size: 35px;
         font-weight: 700;
         font-family: monospace;
+        
     }
     p{
         color: white;
@@ -63,7 +62,6 @@
 
     }
     #me {
-        /* border: 2px solid red; */
         text-align: center;
         padding: 10px;
     }
@@ -81,6 +79,7 @@
         align-items: center;
     }
     img {
-        border-radius: 50%;
-        width: 280px;
+        border-radius: 15px;
+        width: 330px;
+        
     }
